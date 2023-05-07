@@ -1,8 +1,10 @@
 body {
     background-color: antiquewhite;
     width: 100%;
-    
-    
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('fundo4.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
 
 }
 
@@ -11,8 +13,20 @@ body {
     margin: auto;margin-left:-0;
     margin-top:50px;
     
+}
+
+h1 {
+    font-size: 30px;
+    color:brown;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#contato {
+    padding-left:500px;
+    padding-top:80px;
 
 }
+
 nav{
     background-color: brown;
     overflow: hidden;
@@ -50,14 +64,17 @@ nav li a:hover {
 
 .img-e-conteudo {
     display: table;
-    
 
+}
+img {
+    border-radius:50%;
 
 }
 
+
 #fotoperfil {
     display: table-cell;
-    
+      
 }
 
 #text {
