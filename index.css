@@ -5,11 +5,16 @@ div {
 section {
     border: 2px solid red;
 }
+footer {
+    border:10px solid blueviolet;
+}
 
 body {
     background-color: antiquewhite;
     padding: 3%;
 }
+
+
 
 .meuNome {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -34,6 +39,7 @@ body {
     /*foto do mesmo tamanho que a div .image-container, que contém a foto e a descrição*/
     padding: 10px;
     background-color: brown;
+    border-radius: 49%;
 }
 
 .image-container {
@@ -79,16 +85,19 @@ nav li a:hover {
     display: flex;
     position: relative;
     column-gap: 50px;
-
     text-align: center;
 
+}
+
+#softSkills li,
+#habilidades li {
+    list-style-type: none;
 
 }
 
 #softSkills,
 #habilidades {
-    list-style-type: none;
-
+    flex: 1;
 }
 
 
@@ -97,3 +106,4 @@ nav li a:hover {
     margin-bottom: 5px;
     font-weight: bold;
 }
+
