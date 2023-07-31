@@ -1,10 +1,11 @@
-body {
+/* body {
     background-color: antiquewhite;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(111,228,164);
+  
     background-repeat: no-repeat;
     background-size:cover;
+    
 
 }
 
@@ -84,4 +85,44 @@ img {
     margin-top: -3px;
     margin-left: 100px;
     text-align: justify;
+}
+
+.listContainer{
+    display:flex;
+    
+}
+
+
+#softSkills{
+    margin-left: 50px;
+}
+#softSkills p,#habilidades p{
+    margin-bottom: 5px;
+    font-weight: bold;
+} */
+div {
+    border: 2px solid green;
+}
+section {
+    border: 2px solid red;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.meuNome {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#descricao {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#fotoPerfil {
+float: left;
+height: 300px; /*foto do mesmo tamanho que a div .image-container, que contém a foto e a descrição*/
+}
+
+.image-container{
+    height: 300px;
 }
