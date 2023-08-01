@@ -1,16 +1,17 @@
-div {
+/* div {
     border: 2px solid green;
 }
 
 section {
     border: 2px solid red;
 }
+
 footer {
-    border:10px solid blueviolet;
-}
+    border: 10px solid blueviolet;
+} */
 
 body {
-    background-color: antiquewhite;
+    background-color: #9E0031;
     padding: 3%;
 }
 
@@ -29,6 +30,7 @@ body {
     left: 326px;
     right: 10px;
     text-align: justify;
+    color: white;
 
 
 }
@@ -38,7 +40,7 @@ body {
     height: 280px;
     /*foto do mesmo tamanho que a div .image-container, que contém a foto e a descrição*/
     padding: 10px;
-    background-color: brown;
+    background-color: #190E4F;
     border-radius: 49%;
 }
 
@@ -48,7 +50,7 @@ body {
 }
 
 nav {
-    background-color: brown;
+    background-color:#190E4F;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -77,8 +79,12 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: antiquewhite;
+    background-color:#9E0031;
     color: black;
+}
+
+a {
+    color: white;
 }
 
 #listContainer {
@@ -92,6 +98,8 @@ nav li a:hover {
 #softSkills li,
 #habilidades li {
     list-style-type: none;
+    padding: 2px;
+    color: white;
 
 }
 
@@ -105,5 +113,25 @@ nav li a:hover {
 #habilidades p {
     margin-bottom: 5px;
     font-weight: bold;
+    color:whitesmoke;
 }
 
+/* #contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.tel-label {
+    margin-right: 5px;
+    /*adicionando margem a direita para separar "Tel.:" do número de telefone*/
+    text-decoration: none;
+    color: white;
+
+}
